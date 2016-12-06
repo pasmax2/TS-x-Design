@@ -2,9 +2,9 @@ version: 2
 groups:
   code-review:
     approve_by_comment:
-      approve_regex: ^:package: OK
+      approve_regex: ^check OK
       enabled: true
-      reject_regex: ^:package: No
+      reject_regex: ^check no
     required: 1
     reset_on_push:
       enabled: false
